@@ -10,7 +10,12 @@ class studentController extends Controller
 {
     public function index(Request $request){
         $student = Student::all();
-        return response()->json($student,200);
+        return response()->json($student,200,[
+            'Content-Type' => 'application/json',
+            'allowed_methods' => 'GET, POST, PUT, DELETE',
+            'allowed_origins' => '*',
+            'access-control-allow-origin' => '*',
+        ]);
     }
 
     public function store(Request $request){
