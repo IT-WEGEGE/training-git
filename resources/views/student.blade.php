@@ -9,8 +9,8 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <div class="flex w-full">
-            <div class="w-3/4 justify-center items-center">
+        <div class="flex justify-center items-center w-full">
+            <div class="w-3/4 mx-auto">
                 <table class="border-seperate border border-slate-400 border-spacing-px p-3 w-full">
                     <thead>
                         <tr>
