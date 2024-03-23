@@ -22,5 +22,11 @@ Route::get('hello',function(){
     return view('student');
 });
 
+<<<<<<< HEAD
 //ini komen
+=======
+Route::get('home', function() {
+    return 'home';
+});
+>>>>>>> 028400dbea6a1cdd7e4962967a44d1fef7eb213c
 
