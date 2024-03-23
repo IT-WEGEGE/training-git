@@ -22,14 +22,13 @@ Route::get('hello',function(){
     return view('student');
 });
 
-<<<<<<< HEAD
-//haloooooooo
+
+
 //hai
-=======
+
 Route::get('/home', function() {
     return view('home');
 });
 
 
->>>>>>> bfcd1ed3a8d47c6d491af5e23dacae29f233a883
 
