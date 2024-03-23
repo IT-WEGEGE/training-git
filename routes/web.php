@@ -22,7 +22,6 @@ Route::get('hello',function(){
     return view('student');
 });
 
-<<<<<<< HEAD
 
 
 //hai
@@ -35,10 +34,13 @@ Route::get('/home', function() {
 
 
 
-=======
 //ini komen
 Route::get('home', function() {
     return 'home';
 });
 
->>>>>>> 222abc1f5c73ee953ba2f28237870eb417410369
+
+//hai
+//hai
+//hai
+//hai
