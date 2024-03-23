@@ -22,7 +22,9 @@ Route::get('hello',function(){
     return view('student');
 });
 
-Route::get('home', function() {
-    return 'home';
+Route::get('/home', function() {
+    return view('home');
 });
+
+
 
