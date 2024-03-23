@@ -15,3 +15,7 @@ use App\Http\Controllers\studentController;
 |
 */
 
+Route::get('/students', [studentController::class, 'index'])->name('students.index');
+Route::post('/students', [studentController::class, 'store'])->name('students.store');
+Route::post('/students/{id}', [studentController::class, 'edit'])->name('students.edit');
+Route::delete('/students/{id}', [studentController::class, 'destroy'])->name('students.destroy');
