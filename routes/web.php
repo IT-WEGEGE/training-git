@@ -22,3 +22,5 @@ Route::get('hello',function(){
     return view('student');
 });
 
+//ini komen
+
