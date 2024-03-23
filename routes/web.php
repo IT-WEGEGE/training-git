@@ -21,7 +21,17 @@ Route::get('/', function () {
 Route::get('hello',function(){
     return view('student');
 });
+<<<<<<< HEAD
 
+=======
+Route::get('home',function(){
+    return 'home';
+});
+<<<<<<< HEAD
+<<<<<<< HEAD
+Route::get('home',function(){
+=======
+>>>>>>> f6a666441357f9da2e1931df32081f3ec8af1f45
 
 
 //hai
@@ -34,8 +44,14 @@ Route::get('/home', function() {
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 4df2be71fa02970f6b2ec4e23062ef06a1e85303
+=======
+>>>>>>> f6a666441357f9da2e1931df32081f3ec8af1f45
 //ini komen
 Route::get('home', function() {
+>>>>>>> 222abc1f5c73ee953ba2f28237870eb417410369
     return 'home';
 });
 
