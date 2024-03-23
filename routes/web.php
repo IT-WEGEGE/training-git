@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\studentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,8 @@ Route::get('/', function () {
 Route::get('hello',function(){
     return view('student');
 });
+
+Route::get('/students', [studentController::class, 'index'])->name('students.index');
+Route::post('/students', [studentController::class, 'store'])->name('students.store');
+Route::post('/students/{id}', [studentController::class, 'edit'])->name('students.edit');
+Route::delete('/students/{id}', [studentController::class, 'destroy'])->name('students.destroy');
