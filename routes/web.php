@@ -24,3 +24,23 @@ Route::get('hello',function(){
 Route::get('home',function(){
     return 'home';
 });
+<<<<<<< HEAD
+
+
+//hai
+
+Route::get('/home', function() {
+    return view('home');
+});
+
+//hai
+
+
+
+=======
+//ini komen
+Route::get('home', function() {
+    return 'home';
+});
+
+>>>>>>> 222abc1f5c73ee953ba2f28237870eb417410369
