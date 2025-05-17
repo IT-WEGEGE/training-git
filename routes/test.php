@@ -8,3 +8,6 @@ echo "hello wor";
 <?php echo "Halo" ?>
 <?php echo "ppp" ?>
 <?php echo "Kerjaannya udah bagus " ?>
+
+
+<?php echo "Kerjaannya bagus di IT" ?>
