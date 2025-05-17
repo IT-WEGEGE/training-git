@@ -10,3 +10,8 @@ echo "hello wor";
 <?php echo "ppp" ?>
 
 <?php echo "iyaa" ?>
+
+<?php echo "iyaa" ?>
+<?php echo "halo " ?>
+
+<?php echo "halo " ?>
