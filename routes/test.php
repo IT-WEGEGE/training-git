@@ -2,7 +2,8 @@
 
 echo "hello wor";
 ?>
-<?php echo "da capek " ?>
+<?php echo "da capek ya" ?>
+<?php echo "da capek y" ?>
 <?php echo "e ebeht" ?> <?php echo "babi ngepet" ?>
 <?= "Ceje mau beli filano"; ?>
 <?php echo "Halo" ?>
