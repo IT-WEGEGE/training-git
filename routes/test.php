@@ -1,9 +1,12 @@
 <?php
 
-echo "hello world";
+echo "hello wor";
 ?>
-<?php echo "dahlah capek " ?>
-<?php echo "e ebehahat" ?> <?php echo "babi ngepet" ?>
+<?php echo "da capek ya" ?>
+<?php echo "da capek y" ?>
+<?php echo "e ebeht" ?> <?php echo "babi ngepet" ?>
 <?= "Ceje mau beli filano"; ?>
+<?php echo "Halo" ?>
+<?php echo "ppp" ?>
 
 <?php echo "halo " ?>
