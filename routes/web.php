@@ -21,9 +21,6 @@ Route::get('/', function () {
 Route::get('hello',function(){
     return view('student');
 });
-
-//ini komen
-Route::get('home', function() {
+Route::get('home',function(){
     return 'home';
 });
-
