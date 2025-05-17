@@ -1,7 +1,7 @@
 <?php
-echo "haloo";
-echo "hai";
+
+echo "hello world";
 ?>
 <?php echo "dahlah capek " ?>
-<?php echo "ce ebet" ?>
+<?php echo "e ebehahat" ?> <?php echo "babi ngepet" ?>
 <?= "Ceje mau beli filano"; ?>
