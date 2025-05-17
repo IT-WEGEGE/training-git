@@ -1,3 +1,7 @@
-<?php echo "ce ebet" ?>
+<?php
 
-<?php echo "HALOLOLOLO" ?>
+echo "hello world";
+?>
+<?php echo "dahlah capek " ?>
+<?php echo "e ebehahat" ?> <?php echo "babi ngepet" ?>
+<?= "Ceje mau beli filano"; ?>
