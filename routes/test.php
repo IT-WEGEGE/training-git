@@ -10,3 +10,5 @@ echo "hello wor";
 <?php echo "ppp" ?>
 
 <?php echo "halo " ?>
+
+<p>halo</p>
